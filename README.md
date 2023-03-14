@@ -1,7 +1,7 @@
 # MiguelTorresValls-GITT-PAT3
 
 Página web que mejora la anterior añadiendo una página que incluye un "search-bar" para poder buscar repositorios web por nombre de usuario. 
-Esto se realiza mediante la API de github: https://api.github.com/users/USERNAME/repos, por lo que accediendo a lo que escriba el usuario en el search bar tenemos acceso a un montoón de información sobre sus repositorios.
+Esto se realiza mediante la API de github: https://api.github.com/users/USERNAME/repos, por lo que accediendo a lo que escriba el usuario en el search bar tenemos acceso a un monton de información sobre sus repositorios.
 
 Ejemplo de resultado al poner en USERNAME el mio propio: migueltorresvalls
 
