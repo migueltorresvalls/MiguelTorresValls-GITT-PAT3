@@ -1,0 +1,106 @@
+body {
+    background: rgb(98,130,50);
+    background: linear-gradient(90deg, rgba(98,130,50,1) 0%, rgba(119,160,58,1) 100%, rgba(37,73,96,1) 100%);
+}
+
+#portfolio{
+    background: rgb(119, 160, 58);
+}
+
+.home h1{
+    color: rgb(247, 232, 232);
+}
+
+.home p{
+    color: rgb(225, 208, 208);
+}
+
+.left-arrow, 
+.right-arrow {
+    height: 80%;
+}
+
+.left-arrow:hover{
+    background: rgba(119,160,58,1);
+}
+
+.right-arrow:hover{
+    background: rgba(98,130,50,1);
+}
+
+.work {
+    background: #FFFFFF; 
+    transform: translate(-50%, 0);
+    left: 50%;
+    width: 65%;
+    max-width: 65em;
+    height: 80%;
+    position: relative; 
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+table {
+    transform: translate(-50%, 0);
+    position: relative; 
+    left: 50%;
+    top: 10%;
+}
+
+table td {
+    background: whitesmoke;
+    width: 15em;
+    height: 10em;
+    overflow: hidden;
+    vertical-align: top;
+}
+
+.experience{
+    position: relative; 
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("https://api.time.com/wp-content/uploads/2021/02/laptop-home-office.jpg");
+    background-position: center;
+    background-size: contain;
+}
+
+.experience:hover i{
+    color: #333;
+}
+
+.experience:hover p{
+    opacity: 1;
+    cursor: pointer;
+}
+
+.experience p:hover{
+    text-decoration: underline;
+}
+
+.experience i{
+    position: absolute;
+    transition: all .5s ease-in-out;
+    font-size: 1.5em;
+    color: #393636; 
+    position: relative; 
+    top: 10%;
+    left: 85%;
+}
+
+.experience p{
+    position: absolute;
+    background: #333;
+    display: inline-block;
+    transform: translate(-50%, -50%);
+    padding: 1em;
+    border-radius: 5%;
+    left: 50%;
+    top: 50%;
+    font-style: none;
+    opacity: 0;
+    transition: all .5s ease-in-out;
+}
+
+footer {
+    background: rgb(85, 113, 42);
+}
